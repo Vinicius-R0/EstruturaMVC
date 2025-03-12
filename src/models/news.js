@@ -1,8 +1,10 @@
 var fs = require('fs');
-function news() {}
+function news() {};
 
 news.prototype.getLastNews = function(callback) {
+
   fs.readFile('./data/noticias.json', 'utf8', function(error, result) {
+
     var data = [];
 
     if (!error) {
@@ -16,11 +18,11 @@ news.prototype.getLastNews = function(callback) {
     
     results.noticias.forEach(function(noticia) {
         if (contNoticia >=  0) {
-        data[contNoticia] = noticia;
-	    contNoticia--;
-            }
+          data[contNoticia] = noticia;
+	        contNoticia--;
+        }
       });
-    }callback(error, data);	   
+    }callback (error, data);	   
   });
 };
 

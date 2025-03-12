@@ -25,5 +25,5 @@ consign()
     .into(app); //injeta essas dependências na instancia express(app)
 
 app.listen(3000, () => {
-    console.log('on')
+    console.log('app on')
 })
