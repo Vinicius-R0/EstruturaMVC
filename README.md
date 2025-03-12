@@ -3,3 +3,5 @@
 ## No dia a dia de um projeto em equipe, a refatoração é extremamente importante. À medida que diferentes desenvolvedores vão contribuindo com o código, ele pode acabar ficando confuso, difícil de entender ou até com erros escondidos. Se o código não for mantido limpo, pode se tornar um pesadelo quando alguém precisar corrigir algo ou adicionar uma nova funcionalidade. Refatorar regularmente ajuda a manter o código legível e mais fácil de trabalhar, mesmo à medida que o projeto cresce.
 
 ### Além disso, em uma equipe, é muito mais fácil colaborar e se comunicar quando o código segue padrões claros e é bem estruturado. Isso facilita a integração do trabalho de todos, evitando mal-entendidos e erros. Portanto, refatorar não é apenas sobre deixar o código bonito, mas sim garantir que ele continue sustentável, eficiente e fácil de evoluir conforme o projeto se desenvolve.
+
+#### Vinicius R. - Vinicius Araujo - Luan - Pablo - Roger
