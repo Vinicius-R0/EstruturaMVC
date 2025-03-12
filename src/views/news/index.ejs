@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="pt">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>MVC - Noticias</title>
+    <link rel="stylesheet" href="/css/style.css">
+  </head>
+  <body>
+    <p class="Copyright">© Copyright 2025 | Exemplo de estrutura MVC - PAPIS</p>
+    <nav class="navbar">
+      <h1 class="navbar-nome">MVC NEWS|PAPIS</h1>
+    </nav>
+
+    <div id="container">
+      
+
+      <h2 class="container-nome">Ultimas noticias</h2>
+      <br/>
+
+      <% if (news.length > 0) { %>
+
+        <div class="ordem">
+          <% for(var i = 0; i < news.length; i++) {%>
+
+            <div class="noticias">
+              <div>
+                <h4 class="titulo"><%= news[i].titulo %></h4>
+                <p class="texto"><%= news[i].noticia %></p>
+              </div>
+            
+            </div>
+
+          <% }%>
+
+        </div>
+
+      <% }%>
+
+    </div>
+
+  </body>
+</html>
